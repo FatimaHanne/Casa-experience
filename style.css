@@ -105,6 +105,11 @@ nav ul li a {
 #menu-toggle {
   display: none;
 }
+.formulaires button{
+  background-color: #000;
+  color: white;
+  padding: 10px;
+}
 
 /* === Responsive === */
 @media (max-width: 768px) {
@@ -873,7 +878,12 @@ color: black;
             margin-bottom: 12px;
         }
 
-      
+        .footer-column ul li a {
+            color: #cccccc;
+            text-decoration: none;
+            font-size: 14px;
+            transition: color 0.3s ease;
+        }
         .footer-column ul li a:hover {
             color: #ff6b35;
         }
